@@ -1,0 +1,69 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .nav-row1{
+        display: none;
+    }
+
+    .nav-row2-links{
+        display: none;
+    }
+    .nav-row2{
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+  
+    .nav-row2-btn{
+        height: 80px;
+        margin-left: 200px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 30px;
+    }
+    .nav-row2-btn i{
+        /* display: block; */
+        visibility: visible;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .nav-row2-btn i:hover{
+        cursor: pointer;
+    }
+    .nav-row2-btn button{
+        padding: 6px 10px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .maincard-section{
+        flex-direction: column;
+    }
+    .carousel-slide img{
+        height: 50vh;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .carousel-para{
+        text-align: center;
+        width: 300px;
+        left: 0px;
+        top: 20px;
+        padding: 15px 10px;
+    }
+    .carousel-para p{
+        text-align:start ;
+        font-size: 14px;
+        line-height: 15px;
+        padding: 0px;
+    }
+    .carousel-para button{
+        padding: 5px;
+    }
+
+    .footer-row1{
+        flex-direction: column;
+    }
+}

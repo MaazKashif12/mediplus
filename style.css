@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    
+}
+
+.nav-container{
+    max-width: 100%;
+}
+
+.nav-row1{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-row1-left{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    text-transform: capitalize;
+
+}
+.nav-row1-left li{
+    padding: 0px 10px;
+}
+
+.nav-row1-right a{
+    text-decoration: none;
+    padding: 0px 15px;
+    
+}
+.nav-row2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;    
+    border-top: 1px solid #ccc;
+}
+
+.nav-row2-logo{
+    height: 100%;
+    padding-top: 15px;
+}
+
+.nav-row2-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+.nav-row2-links li{
+    padding:0px 20px;
+}
+.navbtn-dropdown{
+    padding: 0px 10px;
+}
+.navbtn-dropdown a{
+    background-color: transparent;
+    padding:  0px 10px;
+    border: none;
+    color: black;
+}
+.navbtn-dropdown a:hover{
+    background-color: transparent;
+}
+
+.nav-row2-btn button{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px ;
+    margin-top: 5px;
+}
+.nav-row2-btn i{
+    visibility:hidden;
+    
+}
+
+.carousel-slide{
+    background-color: red;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.carousel-img{
+    position: relative;
+    /* height: 100vh; */
+}
+.carousel-para{
+    width: 600px;
+    padding: 10px;
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+
+.carousel-para p{
+    padding: 20px 10px;
+    line-height: 30px;
+}
+.carousel-para button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1A76D1;
+    border: none;
+    
+}
+.carousel-para span{
+    color: #1a76d1;
+}
+.carousel-para button:last-child{
+   margin-left: 15px;
+   background-color: #2D2E40;
+}
+
+.maincard-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 150px;
+}
+.carditems{
+    padding: 25px 30px;
+    background-color: #1A76D1;
+    border-radius: 10px;
+    color: white;
+    
+
+}
+.carditems a{
+    color: white;
+}
+
+.footer-container{
+    max-width: 90%;
+    margin: auto;
+    width: 100%;
+    
+    
+}
+footer{
+    width: 100%;
+    background-color: #176ABC;
+}
+footer .footer-row1{
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+    
+}
+
+.footer-contact{
+    margin-top: 80px;
+    flex-basis: 25%;
+    color: white;
+}
+.footer-contact span{
+    line-height: 40px;
+}
+
+.footer-contact h1{
+    font-size: 28px;
+}
+
+.footer-news{
+    margin-top: 80px;
+    flex-basis: 25%;
+    color: white;
+}
+.footer-news h1{
+    font-size: 26px;
+}
+.footer-news-content{
+    display: flex;
+    align-items: center;
+}
+.footer-news-content img{
+    height: 60px;
+    width: 60px;
+}
+.footer-news-content h5{
+    font-size:20px ;
+    color: #c4c4c4;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.footer-news-content p{
+    color: #c4c4c4;
+}
+.footer-new-para{
+    margin: 10px;
+}
+
+
+.footer-quicklinks {
+    margin-top: 80px;
+}
+
+.footer-quicklinks ul{
+    flex-basis: 25%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: circle;
+}
+
+
+.footer-quicklinks  li a{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 40px;
+    color: white;
+
+}
+.footer-quicklinks h1{
+    font-size: 26px;
+    color: white;
+}
+.footer-quicklinks  a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-form{
+    margin-top: 80px;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+.footer-form  h1{
+    font-size: 26px;
+}
+.footer-form input{
+    width: 100%;
+    padding: 12px;
+}
+.footer-form button{
+    margin-top: 10px;
+    padding: 12px 25px;
+    background-color: #FAD110;
+
+}
+
+.footer-row2{
+    border-top: 1px solid black;
+}
+.footer-row2 p{
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
